@@ -4,26 +4,43 @@ html, body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(to top, #dae2f8, #d6a4a4);
+    background-size: cover; 
 }
 
 #container{
   width: 30%;
   text-align: center;
-  margin-top: -150px;
-
-  border-radius: 10px;
-  background-image: url(img/img\ \(1\).jpg);
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 50px;
+  background-image: url(img/img\ \(10\).jpg);
   background-size: cover;
 }
 
 #day{
-  color: #fff;
+  color: rgb(13, 6, 40);
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 900;
 }
 
 #month_date_year{
-  color: #fff;
+  color: rgb(13, 6, 40);
+  
 }
 
 #time{
-  color: #fff;
+  color: rgb(13, 6, 40);
+  text-transform: uppercase;
+}
+
+
+
+@media only screen and (max-width:768px) {
+  #container{
+    width: 70%;
+  }
+
 }
